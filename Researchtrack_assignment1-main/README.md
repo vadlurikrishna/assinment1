@@ -1,6 +1,6 @@
 # Researchtrack_assignment1
 
-# Done by Aatheethyaa Dhanasekaran(Matricola No.:S5051520)
+# Done by Vadluri Krishna(Matricola No.:S5056536)
 
 This assignment is based on controlling a holonomic robot in a 2d space with 2d simulator.a new ROS packages is created with two ROS nodes are developed and cpp is used for writing the codes.First node in the package is incharge for calling the service for recieving a random target and making the robot to reach the target,second node is responsible for the service server and it replies to client with random target having x and y in the interval between (-6.0,6.0).The target is cinsidered to be reached when the distance between robot and target is below 0.1.
 
@@ -15,7 +15,7 @@ The following steps is used to prepare the necessary environment and dependencie
 
 1.Open command line terminal and navigate to the the local workspace using  *cd /<name_of_workspace>(my_ros_ws)/src* command.
 
-2.Clone the remote repository of assignment in your local workspace using the command: git clone    https://github.com/Aathee1103/Researchtrack_assignment1.git 
+2.Clone the remote repository of assignment in your local workspace using the command: git clone    
 
 3.Build the file using *catkin_make* in the root folder of the workspace.
 
